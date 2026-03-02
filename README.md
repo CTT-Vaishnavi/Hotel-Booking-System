@@ -1,4 +1,4 @@
-"# Hotel-Booking-System" 
+<!-- "# Hotel-Booking-System" 
 # 🏨 Hotel Booking System
 
 A responsive Hotel Booking System built using **HTML, CSS, JavaScript, and Bootstrap 5**.  
@@ -82,4 +82,99 @@ Computer Science Engineer
 
 ---
 
-⭐ If you like this project, consider giving it a star!
+⭐ If you like this project, consider giving it a star! -->
+
+# 🏨 Hotel Booking System
+
+A responsive and user-friendly **Hotel Booking System** website built using HTML, CSS, and JavaScript.  
+This project allows users to book hotel rooms through a structured form with proper validation and a clean UI design.
+
+---
+
+## 📌 Project Overview
+
+The Hotel Booking System is a front-end web application designed to:
+
+- Collect customer booking details
+- Validate form inputs
+- Provide a responsive design for all screen sizes
+- Deliver a smooth user experience
+
+This project is ideal for beginners learning web development and form validation concepts.
+
+---
+
+## 🚀 Features
+
+- ✅ Responsive Design
+- ✅ Booking Form with Input Validation
+- ✅ Clean and Modern UI
+- ✅ Contact Section
+- ✅ Easy Navigation
+- ✅ User-friendly Layout
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap (if used)
+
+---
+
+## 📂 Project Structure
+Hotel-Booking-System/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+---
+
+## 💻 How to Run the Project
+
+1. Download or Clone the repository
+2. Open the project folder
+3. Double click on `index.html`
+
+OR
+
+If using VS Code:
+- Install Live Server extension
+- Right click on `index.html`
+- Click **Open with Live Server**
+
+The project will run on:
+http://127.0.0.1:5500/Hotel-Booking-System/index.html
+
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots of your project here)
+
+---
+
+## 🎯 Learning Outcomes
+
+- Understanding of form validation
+- Creating responsive layouts
+- Working with front-end project structure
+- Hosting projects using GitHub
+
+---
+
+## 👩‍💻 Author
+
+**Vaishnavi Shinde**  
+Computer Science & Engineering Student  
+
+---
+
+## 📜 License
+
+This project is created for educational purposes.
