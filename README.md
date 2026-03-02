@@ -45,6 +45,7 @@ Hotel-Booking-System/
     ├── lorry.png
     ├── slider2.png
     └── slider3.png
+
 📸 Project Overview
 
 This project includes:
@@ -82,6 +83,13 @@ Add database integration
 Add authentication system
 
 Create admin dashboard
+
+## 📸 Output Screenshot
+Below is the preview of the Hotel Booking System homepage:
+
+![Hotel Booking System Output](Hotel-Booking-System\imgfolder\Home.png)
+![Hotel Booking System Output](Hotel-Booking-System\imgfolder\about.png)
+![Hotel Booking System Output](Hotel-Booking-System\imgfolder\Service.png)
 
 👩‍💻 Author
 
