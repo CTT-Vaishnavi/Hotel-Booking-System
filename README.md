@@ -1,9 +1,3 @@
-Perfect 👍 let’s upgrade it and make your README look like a polished GitHub project.
-
-Copy this full version and replace your current README with it:
-
----
-
 # 🏨 Hotel Booking System
 
 <p align="center">
@@ -134,12 +128,3 @@ Computer Science & Engineering Student
 
 ---
 
-This version looks:
-
-• Centered and clean
-• Has badges like professional repos
-• Screenshots aligned properly
-• Better visual structure
-• More premium overall
-
-If you want, I can also help you make your GitHub profile README look equally professional.
