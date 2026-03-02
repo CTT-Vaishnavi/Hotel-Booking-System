@@ -1,40 +1,62 @@
-🏨 Hotel Booking System
+Perfect 👍 let’s upgrade it and make your README look like a polished GitHub project.
 
-A responsive and modern Hotel Booking System Website built using HTML, CSS, JavaScript, and Bootstrap 5.
-This project represents a professional hotel landing page design with structured layout, smooth navigation, and form validation.
+Copy this full version and replace your current README with it:
 
-🔗 Live Demo:
-https://ctt-vaishnavi.github.io/Hotel-Booking-System/
+---
 
-🚀 Features
+# 🏨 Hotel Booking System
 
-Responsive Navigation Bar
+<p align="center">
+  <b>A Responsive Hotel Booking Website UI</b><br>
+  Built with HTML, CSS, JavaScript & Bootstrap 5
+</p>
 
-Bootstrap 5 Carousel Slider
+<p align="center">
+  <a href="https://ctt-vaishnavi.github.io/Hotel-Booking-System/">
+    <img src="https://img.shields.io/badge/Live-Demo-green?style=for-the-badge">
+  </a>
+  <img src="https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JS-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Framework-Bootstrap%205-purple?style=for-the-badge">
+</p>
 
-Attractive About Section
+---
 
-Services Section with Cards
+## 📖 About The Project
 
-Contact Form with JavaScript Validation
+This project is a modern and responsive **Hotel Booking System Website UI** designed to simulate a professional hotel landing page.
 
-Smooth Scrolling Navigation
+It includes structured sections like Home, About, Services, and Contact with smooth navigation and clean layout design.
 
-Fully Mobile Friendly Design
+🔗 **Live Demo**
+[https://ctt-vaishnavi.github.io/Hotel-Booking-System/](https://ctt-vaishnavi.github.io/Hotel-Booking-System/)
 
-Clean and Well-Structured Code
+---
 
-🛠️ Technologies Used
+## ✨ Key Features
 
-HTML5
+✔ Responsive Navigation Bar
+✔ Bootstrap 5 Carousel Slider
+✔ About Section Layout
+✔ Services Section with Cards
+✔ Contact Form with JavaScript Validation
+✔ Smooth Scrolling Navigation
+✔ Mobile-Friendly Design
+✔ Clean and Organized Code
 
-CSS3
+---
 
-JavaScript
+## 🛠 Tech Stack
 
-Bootstrap 5
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap 5
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
+```
 Hotel-Booking-System/
 │
 ├── index.html
@@ -42,58 +64,82 @@ Hotel-Booking-System/
 ├── script.js
 ├── README.md
 └── imgfolder/
-    ├── lorry.png
-    ├── slider2.png
-    └── slider3.png
+    ├── Home.png
+    ├── about.png
+    ├── Service.png
+```
 
-📸 Project Overview
+---
 
-This project includes:
+## 📸 Project Screenshots
 
-A responsive and collapsible navigation bar
+### 🏠 Home Page
 
-A full-width Bootstrap carousel with buttons
+<p align="center">
+  <img src="imgfolder/Home.png" width="800">
+</p>
 
-Modern About section layout
+---
 
-Services section using Bootstrap cards
+### ℹ️ About Section
 
-Contact form that displays submitted data
+<p align="center">
+  <img src="imgfolder/about.png" width="800">
+</p>
 
-Clean footer design
+---
 
-▶️ How to Run the Project
+### 🛎 Services Section
 
-Clone the repository:
+<p align="center">
+  <img src="imgfolder/Service.png" width="800">
+</p>
 
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```
 git clone https://github.com/CTT-Vaishnavi/Hotel-Booking-System.git
+```
 
-Open the project folder.
+### 2️⃣ Open the Project
 
-Open index.html in your browser.
+Open the project folder and run `index.html` in your browser.
 
-📌 Future Improvements
+---
 
-Add full booking functionality
+## 📌 Future Improvements
 
-Connect with backend (Node.js / PHP / Java)
+* Add backend integration
+* Store booking data in database
+* Implement user authentication
+* Add admin dashboard
+* Deploy with full-stack functionality
 
-Add database integration
+---
 
-Add authentication system
+## 👩‍💻 Author
 
-Create admin dashboard
-
-## 📸 Output Screenshot
-Below is the preview of the Hotel Booking System homepage:
-
-![Hotel Booking System Output](Hotel-Booking-System\imgfolder\Home.png)
-![Hotel Booking System Output](Hotel-Booking-System\imgfolder\about.png)
-![Hotel Booking System Output](Hotel-Booking-System\imgfolder\Service.png)
-
-👩‍💻 Author
-
-Vaishnavi Shinde
+**Vaishnavi Shinde**
 Computer Science & Engineering Student
 
-⭐ If you found this project helpful, consider giving it a star on GitHub!
+---
+
+<p align="center">
+  ⭐ If you like this project, consider giving it a star on GitHub!
+</p>
+
+---
+
+This version looks:
+
+• Centered and clean
+• Has badges like professional repos
+• Screenshots aligned properly
+• Better visual structure
+• More premium overall
+
+If you want, I can also help you make your GitHub profile README look equally professional.
