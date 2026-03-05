@@ -1,43 +1,59 @@
-const form = document.getElementById("contactForm");
-        const output = document.getElementById("submittedData");
+    (function () {
+        emailjs.init("vEx1Iflnj1vbAL-zU");
+    })();
 
-        form.addEventListener("submit", function (e) {
-            e.preventDefault();
+    document.getElementById("bookingForm").addEventListener("submit", function (e) {
 
-            let name = document.getElementById("name").value.trim();
-            let email = document.getElementById("email").value.trim();
-            let message = document.getElementById("message").value.trim();
+        e.preventDefault();
 
-            if (name === "" || email === "" || message === "") {
-                output.innerHTML = `
-                <div class="alert alert-danger">
-                    Please fill all fields.
-                </div>
-            `;
-                return;
-            }
+        let checkin = document.getElementById("checkin").value;
+        let checkout = document.getElementById("checkout").value;
+        let msg = document.getElementById("bookingMsg");
+        let btn = document.getElementById("bookBtn");
 
-            output.innerHTML = `
-            <div class="alert alert-success">
-                <h5>Submitted Data:</h5>
-                <p><strong>Name:</strong> ${name}</p>
-                <p><strong>Email:</strong> ${email}</p>
-                <p><strong>Message:</strong> ${message}</p>
-            </div>
-        `;
+        msg.innerHTML = "";
 
-            form.reset();
-        });
+        /* Date validation */
 
-        // Smooth Scroll
-        document.querySelectorAll(".nav-link").forEach(link => {
-            link.addEventListener("click", function (e) {
-                let targetId = this.getAttribute("href");
-                if (targetId.startsWith("#")) {
-                    e.preventDefault();
-                    document.querySelector(targetId).scrollIntoView({
-                        behavior: "smooth"
-                    });
-                }
+        if (checkout <= checkin) {
+            msg.innerHTML = "<span class='text-danger'>Checkout date must be after check-in date.</span>";
+            return;
+        }
+
+        /* Loading */
+
+        btn.innerText = "Sending...";
+        btn.disabled = true;
+
+        /* Send Email */
+
+        emailjs.sendForm(
+            "service_qod4a0a",
+            "template_okterdb",
+            this,
+            "vEx1Iflnj1vbAL-zU"
+        )
+
+            .then(function () {
+
+                msg.innerHTML = "<span class='text-success'>✅ Booking request sent successfully!</span>";
+                document.getElementById("bookingForm").reset();
+
+                btn.innerText = "Book Now";
+                btn.disabled = false;
+
+            })
+
+            .catch(function (error) {
+
+                console.error("EmailJS Error:", error);
+
+                msg.innerHTML = "<span class='text-danger'>❌ Failed to send booking request. Please try again.</span>";
+
+                btn.innerText = "Book Now";
+                btn.disabled = false;
+
             });
-        });
+
+    });
+
